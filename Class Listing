@@ -37,8 +37,10 @@ Class Listing (Promoted)
     [swords: D]
     [movement: Horse]
   Charger - ______
-    [swords: ]//needs filling cuz idk what to drop here
-    [lances: ]
+    [swords: C]
+    [lances: C]
+    [axes: D]
+    //kinda think chargers should be similar to the great knight. aka beefy armored horse dude
   God - ______
     [swords: B]
     [lances: D]
@@ -51,8 +53,12 @@ Class Listing (Promoted)
     [anima: D]
     [light tomes: C]
     [staves: C]
+  Saint - ______
+    [light: C]
+    [staves: C]
   Sniper - ______
     [bows: S]
   Tourney Knight - ______
-    [swords: ]//needs filling cuz idk what to drop here
-    [lances: ]
+    [swords: D]
+    [lances: C]
+    [staves: D]
