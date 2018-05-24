@@ -1,0 +1,21 @@
+Class Listing
+  Lord - _____
+    [swords: E]
+    [light tomes:E]
+      {promotes to - God}
+   Archer - ______
+    [bows: E]
+      {promotes to - Sniper}
+      OR
+      {promotes to - Bowknight}
+    Cleric - ________
+      [staves: E]
+        {promotes to - Saint}
+        OR
+        {promotes to - Sage}
+     Troubador - ______
+      [staves: E]
+      [Movement: Horse]
+        {promotes to - Saint}
+        OR
+        {promotes to - Tourney Knight}
