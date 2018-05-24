@@ -27,6 +27,7 @@ Class Listing (Base)
   Knight - ______
   //armor unit dudes
     [lances: E]
+    [Movement: armor]
       {promotes to - General}
       OR
       {promotes to - Charger}
@@ -39,6 +40,7 @@ Class Listing (Base)
     //Does not promote
   Pegasus Knight - ______
     [lances: E]
+    [Movement: flier]
       {promotes to - Falcon Knight}
       OR
       {promotes to - Wyvern Knight}
@@ -62,25 +64,27 @@ Class Listing (Promoted)
 //In general for promoted classes w/ a single weapon type I bumped profeciency to A, but open to other thoughts
   Beserker - ______
     [axes: A]
+    [Movement: pirate]
     //gets crit +15
   Bowknight - ______
     [bows: B]
     [swords: D]
-    [movement: Horse]
+    [Movement: Horse]
   Charger - ______
     [swords: C]
     [lances: C]
     [axes: D]
+    [Movement: horse]
     //kinda think chargers should be similar to the great knight. aka beefy armored horse dude
   Falcon Knight - ______
     [swords: D]
     [lances: C]
-    [movement: Flier
+    [movement: Flier]
   General - ______
     [lances: B]
     [axes: D]
     [swords: D]
-    [Movement: Armor]
+    [Movement: armor]
   God - ______
     [swords: B]
     [lances: D]
@@ -92,6 +96,7 @@ Class Listing (Promoted)
     [axes: C]
   Royal Dancer - ______
     [axes: C]
+    //Weapon rank capped at C
   Sage - ______
     [anima: D]
     [light tomes: C]
@@ -105,8 +110,10 @@ Class Listing (Promoted)
     [swords: D]
     [lances: C]
     [staves: D]
+    [Movement: Horse]
   Warrior - ______
     [axes: C]
     [bows: E]
   Wyvern Knight - ______
     [lances: A]
+    [Movement: flier]
