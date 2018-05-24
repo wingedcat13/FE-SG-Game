@@ -1,0 +1,56 @@
+-------------------------------------------------
+Contains stats for each weapon, sorted within class by escalation of damage. Special weapons in bottom category
+-------------------------------------------------
+Swords:
+  Wooden Sword:  E
+    --Little more than a practice weapon, but better than using your fists!--
+    Mt: 1
+    Durability: 40/40
+  Iron Sword:  D
+    --A simple iron sword --
+    Mt: 2
+    Durability: 35/35
+  Steel Sword:  C
+    --A stronger variation on a classic--
+    Mt: 4
+    Durability: 30/30
+  Rapier:  E
+    --Swift and Sharp! Pierces armor--
+    [Lords Only]
+    Mt: 3
+    Durability: 25/25
+----------------------------------------------------------
+Lances:
+  Wooden Lance:  E
+    --Just a shaped pole, really--
+    Mt: 1
+    Durability: 40/40
+  Iron Lance:  D
+    --A knight's polearm of choice--
+    Mt: 2
+    Durability: 35/35
+  Steel Lance:  C
+    --Steel-coated fury--
+    Mt: 4
+    Durability: 30/30
+  Silver Lance: B
+    --Gilded Death--
+    Mt: 6
+    Durability: 15/15
+  Javelin: D
+    --For when they don't stand close enough--
+    Mt: 2
+    Durability: 15/15
+    [Range = 2]
+----------------------------------------------------------
+Bows: [All Ranged]
+  Practice Bow:  E
+    --Every kid played with these, right?--
+    Mt: 1
+    Durability: 40/40
+  Archer's Shortbow:  D
+    --Loved by hunters of men and beasts alike--
+    Mt: 2
+    Durability: 35/35
+  Archer's Longbow: D
+    --Loved by hunters of men and beasts alike. Long range--
