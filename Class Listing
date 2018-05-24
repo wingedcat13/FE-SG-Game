@@ -1,24 +1,9 @@
-Class Listing
-  Lord - _____
-    [swords: E]
-    [light tomes:E]
-      {promotes to - God}
+Class Listing (Base)
   Archer - ______
     [bows: E]
       {promotes to - Sniper}
       OR
       {promotes to - Bowknight}
-  Cleric - ________
-    [staves: E]
-      {promotes to - Saint}
-      OR
-      {promotes to - Sage}
- Troubador - ______
-    [staves: E]
-    [Movement: Horse]
-     {promotes to - Saint}
-     OR
-     {promotes to - Tourney Knight}
   Cavalier - ______
     [swords: E]
     [lances: E]
@@ -26,8 +11,48 @@ Class Listing
       {promotes to - Tourney Knight}
       OR
       {promotes to - Charger}
+  Cleric - ________
+    [staves: E]
+      {promotes to - Saint}
+      OR
+      {promotes to - Sage}
   Dancer - ______
     [axes: E]
       {promotes to - Royal Dancer}
+  Lord - _____
+    [swords: E]
+    [light tomes:E]
+      {promotes to - God}
+ Troubador - ______
+    [staves: E]
+    [Movement: Horse]
+     {promotes to - Saint}
+     OR
+     {promotes to - Tourney Knight}
+
+Class Listing (Promoted)
+//For weapon affinities that already exist maybe just add a flat amount to the proficiency stat as they do in FE8?
+  Bowknight - ______
+    [bows: B]
+    [swords: D]
+    [movement: Horse]
+  Charger - ______
+    [swords: ]//needs filling cuz idk what to drop here
+    [lances: ]
+  God - ______
+    [swords: B]
+    [lances: D]
+    [light tomes: C]
+    [staves: E]
+    //Basically anime jesus so I pimped out their selection of weapons
   Royal Dancer - ______
     [axes: C]
+  Sage - ______
+    [anima: D]
+    [light tomes: C]
+    [staves: C]
+  Sniper - ______
+    [bows: S]
+  Tourney Knight - ______
+    [swords: ]//needs filling cuz idk what to drop here
+    [lances: ]
