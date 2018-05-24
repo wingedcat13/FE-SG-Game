@@ -24,6 +24,9 @@ Class Listing (Base)
       {promotes to - Hero}
       OR
       {promotes to - Pirate}
+  Mercenary - ______
+    [swords: E]
+      {
   Knight - ______
   //armor unit dudes
     [lances: E]
