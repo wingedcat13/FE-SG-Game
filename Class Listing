@@ -24,6 +24,12 @@ Class Listing (Base)
       {promotes to - Hero}
       OR
       {promotes to - Pirate}
+  Knight - ______
+  //armor unit dudes
+    [lances: E]
+      {promotes to - General}
+      OR
+      {promotes to - Charger}
   Lord - _____
     [swords: E]
     [light tomes:E]
@@ -38,17 +44,25 @@ Class Listing (Base)
       {promotes to - Wyvern Knight}
   Pirate - ______
     [axes: E]
+    [Movement: pirate]
+    //Can cross water
+      {promotes to -warrior}
+      OR
+      {promotes to - Beserker}
   Troubador - ______
     [staves: E]
     [Movement: Horse]
-     {promotes to - Saint}
-     OR
-     {promotes to - Tourney Knight}
+      {promotes to - Saint}
+      OR
+      {promotes to - Tourney Knight}
 
 Class Listing (Promoted)
 //For weapon affinities that already exist maybe just add a flat amount to the proficiency stat as they do in FE8?
 //Should there be class basded skills like in FE8? Maybe just use the exisitng ones
 //In general for promoted classes w/ a single weapon type I bumped profeciency to A, but open to other thoughts
+  Beserker - ______
+    [axes: A]
+    //gets crit +15
   Bowknight - ______
     [bows: B]
     [swords: D]
@@ -61,6 +75,12 @@ Class Listing (Promoted)
   Falcon Knight - ______
     [swords: D]
     [lances: C]
+    [movement: Flier
+  General - ______
+    [lances: B]
+    [axes: D]
+    [swords: D]
+    [Movement: Armor]
   God - ______
     [swords: B]
     [lances: D]
