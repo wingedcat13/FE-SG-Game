@@ -19,11 +19,24 @@ Class Listing (Base)
   Dancer - ______
     [axes: E]
       {promotes to - Royal Dancer}
+  Fighter - ______
+    [axes: E]
+      {promotes to - Hero}
+      OR
+      {promotes to - Pirate}
   Lord - _____
     [swords: E]
     [light tomes:E]
       {promotes to - God}
- Troubador - ______
+  Manakete - ______
+    [dragonstones: E]
+    //Does not promote
+  Pegasus Knight - ______
+    [lances: E]
+      {promotes to - Falcon Knight}
+      OR
+      {promotes to - Wyvern Knight}
+  Troubador - ______
     [staves: E]
     [Movement: Horse]
      {promotes to - Saint}
@@ -32,6 +45,8 @@ Class Listing (Base)
 
 Class Listing (Promoted)
 //For weapon affinities that already exist maybe just add a flat amount to the proficiency stat as they do in FE8?
+//Should there be class basded skills like in FE8? Maybe just use the exisitng ones
+//In general for promoted classes w/ a single weapon type I bumped profeciency to A, but open to other thoughts
   Bowknight - ______
     [bows: B]
     [swords: D]
@@ -41,12 +56,18 @@ Class Listing (Promoted)
     [lances: C]
     [axes: D]
     //kinda think chargers should be similar to the great knight. aka beefy armored horse dude
+  Falcon Knight - ______
+    [swords: D]
+    [lances: C]
   God - ______
     [swords: B]
     [lances: D]
     [light tomes: C]
     [staves: E]
     //Basically anime jesus so I pimped out their selection of weapons
+  Hero - ______
+    [swords: D]
+    [axes: C]
   Royal Dancer - ______
     [axes: C]
   Sage - ______
@@ -57,8 +78,13 @@ Class Listing (Promoted)
     [light: C]
     [staves: C]
   Sniper - ______
-    [bows: S]
+    [bows: A]
   Tourney Knight - ______
     [swords: D]
     [lances: C]
     [staves: D]
+  Warrior - ______
+    [axes: C]
+    [bows: E]
+  Wyvern Knight - ______
+    [lances: A]
