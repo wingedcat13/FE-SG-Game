@@ -24,13 +24,10 @@ Class Listing (Base)
       {promotes to - Hero}
       OR
       {promotes to - Pirate}
-  Mercenary - ______
-    [swords: E]
-      {
   Knight - ______
   //armor unit dudes
     [lances: E]
-    [Movement: armor]
+    [Movement: Armor]
       {promotes to - General}
       OR
       {promotes to - Charger}
@@ -38,20 +35,30 @@ Class Listing (Base)
     [swords: E]
     [light tomes:E]
       {promotes to - God}
+  Mage - ______
+    [anima: E]
+      {promotes to - Sage}
+      OR
+      {promotes to - Mage Knight}
   Manakete - ______
     [dragonstones: E]
     //Does not promote
+  Mercenary - ______
+    [swords: E]
+      {promotes to - Bowknight}
+      OR
+      {promotes to - Hero}
   Pegasus Knight - ______
     [lances: E]
-    [Movement: flier]
+    [Movement: Flier]
       {promotes to - Falcon Knight}
       OR
       {promotes to - Wyvern Knight}
   Pirate - ______
     [axes: E]
-    [Movement: pirate]
+    [Movement: Pirate]
     //Can cross water
-      {promotes to -warrior}
+      {promotes to - Warrior}
       OR
       {promotes to - Beserker}
   Troubador - ______
@@ -60,6 +67,12 @@ Class Listing (Base)
       {promotes to - Saint}
       OR
       {promotes to - Tourney Knight}
+  Wyvern Rider - ______
+    [lances: E]
+    [Movement: Flier]
+      {promotes to - Wyvern Lord}
+      OR
+      {promotes to - Wyvern Knight}
 
 Class Listing (Promoted)
 //For weapon affinities that already exist maybe just add a flat amount to the proficiency stat as they do in FE8?
@@ -67,17 +80,18 @@ Class Listing (Promoted)
 //In general for promoted classes w/ a single weapon type I bumped profeciency to A, but open to other thoughts
   Beserker - ______
     [axes: A]
-    [Movement: pirate]
+    [Movement: Pirate]
     //gets crit +15
   Bowknight - ______
     [bows: B]
     [swords: D]
     [Movement: Horse]
+    //equivalent of ranger in fe8
   Charger - ______
     [swords: C]
     [lances: C]
     [axes: D]
-    [Movement: horse]
+    [Movement: Horse]
     //kinda think chargers should be similar to the great knight. aka beefy armored horse dude
   Falcon Knight - ______
     [swords: D]
@@ -87,7 +101,7 @@ Class Listing (Promoted)
     [lances: B]
     [axes: D]
     [swords: D]
-    [Movement: armor]
+    [Movement: Armor]
   God - ______
     [swords: B]
     [lances: D]
@@ -97,6 +111,10 @@ Class Listing (Promoted)
   Hero - ______
     [swords: D]
     [axes: C]
+  Mage Knight - ______
+    [anima: C]
+    [staves: C]
+    [Movement: Horse]
   Royal Dancer - ______
     [axes: C]
     //Weapon rank capped at C
@@ -119,4 +137,8 @@ Class Listing (Promoted)
     [bows: E]
   Wyvern Knight - ______
     [lances: A]
-    [Movement: flier]
+    [Movement: Flier]
+  Wyvern Lord - ______
+    [lances: B]
+    [swords: D]
+    [Movement: Flier]
