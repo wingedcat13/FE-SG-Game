@@ -33,7 +33,7 @@ Lances:
     --For when they don't stand close enough--
     Mt: 6
     Durability: 20/20
-    Hit: 65% //originally was 65% but raised to compensate for lower MT
+    Hit: 65% 
     Crit: 0%
     Weight: 11
     [Range = 1-2]
@@ -66,6 +66,14 @@ Lances:
     Mt: 10
     Durability: 30/30
     Hit: 70%
+    Crit: 0%
+    Weight: 13
+    [Range = 1]
+  Toxin Lance:  E
+    --Poisons on contact--
+    Mt: 4
+    Durability: 40/40
+    Hit: 65%
     Crit: 0%
     Weight: 13
     [Range = 1]
