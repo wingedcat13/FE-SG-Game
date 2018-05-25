@@ -54,3 +54,13 @@ Bows: [All Ranged]
     Durability: 35/35
   Archer's Longbow: D
     --Loved by hunters of men and beasts alike. Long range--
+----------------------------------------------------------
+Dark Magic:
+  Naglfar: S
+    --A tome of ultimate power, only masters may weild this item--
+    Mt: 25
+    Durability: Infinite
+    Hit: 95%
+    Crit: 0%
+    Weight: 15 //was orignally 18 but slimmed down
+    [Range: 1-2]
