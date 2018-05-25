@@ -39,9 +39,12 @@ Lances:
     Durability: 15/15
   Javelin: D
     --For when they don't stand close enough--
-    Mt: 2
-    Durability: 15/15
-    [Range = 2]
+    Mt: 3 //was originally 6 in FE8 tried to compensate other stats for loss of Mt
+    Durability: 20/20
+    Hit: 70% //originally was 65% but raised to compensate for lower MT
+    Crit: 0%
+    Weight: 9 //originally was 11 but lowered to compensate for lower MT
+    [Range = 1-2]
 ----------------------------------------------------------
 Bows: [All Ranged]
   Practice Bow:  E
