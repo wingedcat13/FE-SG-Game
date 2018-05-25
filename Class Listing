@@ -61,6 +61,11 @@ Class Listing (Base)
       {promotes to - Warrior}
       OR
       {promotes to - Beserker}
+  Preist - ______
+    [staves: E]
+      {promotes to - Bishop}
+      OR
+      {promotes to - Saint}
   Troubador - ______
     [staves: E]
     [Movement: Horse]
@@ -82,6 +87,9 @@ Class Listing (Promoted)
     [axes: A]
     [Movement: Pirate]
     //gets crit +15
+  Bishop - ______
+    [staves: C]
+    [light magic: D]
   Bowknight - ______
     [bows: B]
     [swords: D]
