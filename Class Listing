@@ -56,6 +56,10 @@ Class Listing (Base)
       {promotes to - Falcon Knight}
       OR
       {promotes to - Wyvern Knight}
+  Pegasus Knight 2 - ______
+    [lances: E]
+    [Movement: Flier]
+      {promotes to - Kinshi Knight}
   Pirate - ______
     [axes: E]
     [Movement: Pirate]
@@ -127,6 +131,10 @@ Class Listing (Promoted)
   Hero - ______
     [swords: D]
     [axes: C]
+  Kinshi Knight - ______
+    [lances: C]
+    [bows: D]
+    [Movement: Flier]
   Mage Knight - ______
     [anima: C]
     [staves: C]
@@ -147,6 +155,8 @@ Class Listing (Promoted)
     [staves: C]
   Sniper - ______
     [bows: A]
+    //Should get crit +15 as a buff to help distinguish it from mounted archer
+    //sicne currently there's no reason to go sniper over mounted archer in FE8
   Tourney Knight - ______
     [swords: D]
     [lances: C]
