@@ -59,6 +59,25 @@ Bows: [All Ranged]
     --Loved by hunters of men and beasts alike. Long range--
 ----------------------------------------------------------
 Dark Magic:
+  Eclipse: B
+    --Halves enemy HP--
+    Mt: 0
+    Durability: 5/5
+    Hit: 30%
+    Crit: 0%
+    Weight: 12
+    [Range: 3-10]
+    //does half the enemies HP as damage
+    //might wanna change this around seems too gimicky
+  Fenrir: A
+    --A tome of unholy power--
+    //someone else make this description pls -Go4
+    Mt: 15
+    Durability: 20/20
+    Hit: 70%
+    Crit: 0%
+    Weight: 17 //was 18 but slimmed down slightly
+    [Range = 1-2]
   Flux: E
     --Entry level dark magic--
     Mt: 7
@@ -76,6 +95,16 @@ Dark Magic:
     Weight: 12
     [Range = 1-2]
     //bypasses enemy res stat
+  Hex: C
+  //new mid tier tome for between Flux and Fenrir. If we need to cut it feel free to though
+  --Dark magic for those with mild experience--
+  //someone else pls describe this for me -Go4
+  Mt: 10
+  Durability: 30/30
+  Hit: 75%
+  Crit: 0%
+  Weight: 12
+  [Range = 1-2]
   Naglfar: S
     --A tome of ultimate power, only masters may weild this item--
     Mt: 25
