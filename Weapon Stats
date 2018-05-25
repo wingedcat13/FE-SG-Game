@@ -21,6 +21,31 @@ Swords:
     Durability: 25/25
 ----------------------------------------------------------
 Lances:
+  Axe Reaver: C
+    --Effective vs axes--
+    Mt: 10
+    Durability: 15/15
+    Hit: 70%
+    Crit: 5%
+    Weight: 11
+    [Range = 1]
+  Brave Lance: B
+    --Allows the user to strike twice in succesion--
+    Mt: 10
+    Durability: 30/30
+    Hit: 70%
+    Crit: 0%
+    Weight: 14
+    [Range = 1]
+  Horse Slayer: D
+    --Effective against cavalry--
+    //lowkey wanna rename this to ridersbane
+    Mt: 7
+    Durability: 18/18 //orignally was 16 but bumped up slightly
+    Hit: 70%
+    Crit: 0%
+    Weight: 13 
+    [Range = 1]
   Iron Lance:  E
     --A knight's polearm of choice--
     Mt: 7
@@ -61,6 +86,14 @@ Lances:
     Crit: 5%
     Weight: 4
     [Range = 1]
+  Spear: B
+    --Doubles as a ranged attack--
+    Mt: 12
+    Durability: 15/15
+    Hit: 70%
+    Crit: 5%
+    Weight: 10
+    [Range = 1-2]
   Steel Lance:  C
     --Steel-coated fury--
     Mt: 10
