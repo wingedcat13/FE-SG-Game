@@ -85,6 +85,8 @@ Lances:
     Crit: 0%
     Weight: 1
     [Range = 1]
+    //Wanna give this weapon Avo +10 since it's the ease of use weapon, and it will help distinguish it a little from
+    //the slim lance, but idk if FE8 allows that -Go4
 ----------------------------------------------------------
 Bows: [All Ranged]
   Practice Bow:  E
