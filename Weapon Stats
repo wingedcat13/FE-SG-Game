@@ -59,6 +59,23 @@ Bows: [All Ranged]
     --Loved by hunters of men and beasts alike. Long range--
 ----------------------------------------------------------
 Dark Magic:
+  Flux: E
+    --Entry level dark magic--
+    Mt: 7
+    Durability: 45/45
+    Hit: 80%
+    Crit: 0%
+    Weight: 8
+    [Range = 1-2]
+  Luna: C
+    --Ignores enemy resistance--
+    Mt: 0
+    Durability:
+    Hit: 50%
+    Crit: 10%
+    Weight: 12
+    [Range = 1-2]
+    //bypasses enemy res stat
   Naglfar: S
     --A tome of ultimate power, only masters may weild this item--
     Mt: 25
@@ -66,4 +83,4 @@ Dark Magic:
     Hit: 95%
     Crit: 0%
     Weight: 15 //was orignally 18 but slimmed down
-    [Range: 1-2]
+    [Range = 1-2]
