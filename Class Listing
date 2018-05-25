@@ -56,10 +56,6 @@ Class Listing (Base)
       {promotes to - Falcon Knight}
       OR
       {promotes to - Wyvern Knight}
-  Pegasus Knight 2 - ______
-    [lances: E]
-    [Movement: Flier]
-      {promotes to - Kinshi Knight}
   Pirate - ______
     [axes: E]
     [Movement: Pirate]
@@ -135,6 +131,7 @@ Class Listing (Promoted)
     [lances: C]
     [bows: D]
     [Movement: Flier]
+    //unique class to Robin
   Mage Knight - ______
     [anima: C]
     [staves: C]
