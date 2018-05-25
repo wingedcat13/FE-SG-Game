@@ -11,6 +11,8 @@ Class Listing (Base)
       {promotes to - Tourney Knight}
       OR
       {promotes to - Charger}
+      OR
+      {promotes to Paladin}
   Cleric - ________
     [staves: E]
       {promotes to - Saint}
@@ -66,6 +68,12 @@ Class Listing (Base)
       {promotes to - Bishop}
       OR
       {promotes to - Saint}
+  Shaman - ______
+    [dark magic: E]
+      {promotes to - Druid}
+      OR
+      {promotes to - Summoner}
+      //needa add druid + summoner
   Troubador - ______
     [staves: E]
     [Movement: Horse]
@@ -122,6 +130,10 @@ Class Listing (Promoted)
   Mage Knight - ______
     [anima: C]
     [staves: C]
+    [Movement: Horse]
+  Paladin - ______
+    [swords: D]
+    [lances: C]
     [Movement: Horse]
   Royal Dancer - ______
     [axes: C]
