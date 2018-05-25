@@ -21,30 +21,62 @@ Swords:
     Durability: 25/25
 ----------------------------------------------------------
 Lances:
-  Wooden Lance:  E
-    --Just a shaped pole, really--
-    Mt: 1
-    Durability: 40/40
-  Iron Lance:  D
+  Iron Lance:  E
     --A knight's polearm of choice--
-    Mt: 2
-    Durability: 35/35
-  Steel Lance:  C
-    --Steel-coated fury--
-    Mt: 4
-    Durability: 30/30
-  Silver Lance: B
-    --Gilded Death--
-    Mt: 6
-    Durability: 15/15
+    Mt: 7
+    Durability: 45/45
+    Hit: 80%
+    Crit: 0%
+    Weight: 8
+    [Range = 1]
   Javelin: D
     --For when they don't stand close enough--
-    Mt: 3 //was originally 6 in FE8 tried to compensate other stats for loss of Mt
+    Mt: 6
     Durability: 20/20
-    Hit: 70% //originally was 65% but raised to compensate for lower MT
+    Hit: 65% //originally was 65% but raised to compensate for lower MT
     Crit: 0%
-    Weight: 9 //originally was 11 but lowered to compensate for lower MT
+    Weight: 11
     [Range = 1-2]
+  Killer Lance: C
+    --Improves critical rate--
+    Mt: 10
+    Durability: 20/20
+    Hit: 70%
+    Crit: 30%
+    Weight: 9
+    [Range = 1]
+  Silver Lance: B
+    --Gilded Death--
+    Mt: 14
+    Durability: 20/20
+    Hit: 75%
+    Crit: 0%
+    Weight: 10
+    [Range = 1]
+  Slim Lance: D
+    --A light and easy to use lance--
+    Mt: 4
+    Durability: 35/35 //was originally 30 in FE8 but bumped up slightly
+    Hit: 85%
+    Crit: 5%
+    Weight: 4
+    [Range = 1]
+  Steel Lance:  C
+    --Steel-coated fury--
+    Mt: 10
+    Durability: 30/30
+    Hit: 70%
+    Crit: 0%
+    Weight: 13
+    [Range = 1]
+  Wooden Lance:  E
+    --Just a shaped pole, really--
+    Mt: 2
+    Durability: 40/40
+    Hit: 95%
+    Crit: 0%
+    Weight: 1
+    [Range = 1]
 ----------------------------------------------------------
 Bows: [All Ranged]
   Practice Bow:  E
@@ -95,16 +127,14 @@ Dark Magic:
     Weight: 12
     [Range = 1-2]
     //bypasses enemy res stat
-  Hex: C
-  //new mid tier tome for between Flux and Fenrir. If we need to cut it feel free to though
-  --Dark magic for those with mild experience--
-  //someone else pls describe this for me -Go4
-  Mt: 10
-  Durability: 30/30
-  Hit: 75%
-  Crit: 0%
-  Weight: 12
-  [Range = 1-2]
+  Nosferatu: C
+    --Recovers user's HP equal to damage dealt--
+    Mt: 10
+    Durability: 20/20
+    Hit: 70%
+    Crit: 0%
+    Weight: 14
+    [Range = 1-2]
   Naglfar: S
     --A tome of ultimate power, only masters may weild this item--
     Mt: 25
