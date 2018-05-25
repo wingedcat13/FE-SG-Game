@@ -61,7 +61,7 @@ Class Listing (Base)
       {promotes to - Warrior}
       OR
       {promotes to - Beserker}
-  Preist - ______
+  Priest - ______
     [staves: E]
       {promotes to - Bishop}
       OR
@@ -81,7 +81,7 @@ Class Listing (Base)
 
 Class Listing (Promoted)
 //For weapon affinities that already exist maybe just add a flat amount to the proficiency stat as they do in FE8?
-//Should there be class basded skills like in FE8? Maybe just use the exisitng ones
+//Should there be class based skills like in FE8? Maybe just use the exisitng ones
 //In general for promoted classes w/ a single weapon type I bumped profeciency to A, but open to other thoughts
   Beserker - ______
     [axes: A]
