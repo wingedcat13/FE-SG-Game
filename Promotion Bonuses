@@ -1,0 +1,17 @@
+Format:
+Name:
+  pre-promote class
+  {promotion-1}
+    Hp/Str/Skl/Spd/Lck/Def/Res/Con/Move //replace STR w/ MAG for magic users
+  OR
+  {promotion-2
+    Hp/Str/Skl/Spd/Lcf/Def/Res/Con/Move //replace STR w/ MAG for magic users
+//note: for classes which keep one weapon and are infantry +13 bonus stats to non
+//give a slight -2 penalty if your class becomes a cav
+//Sort alphabetically pls
+-----------
+Sonic Unleashed:
+  Dancer
+  {Royal Dancer}
+    +4/+2/+1/+2/+1/+1/+2/+1/+1
+    //total +13
