@@ -1,15 +1,36 @@
 Format:
 Name:
   pre-promote class
-  {promotion-1}
-    Hp/Str/Skl/Spd/Lck/Def/Res/Con/Move //replace STR w/ MAG for magic users
+  {promotion}
+    Hp/Str/Skl/Spd/Lck/Def/Res/Con/Move
   OR
-  {promotion-2
-    Hp/Str/Skl/Spd/Lcf/Def/Res/Con/Move //replace STR w/ MAG for magic users
+  {promotion}
+    Hp/Str/Skl/Spd/Lck/Def/Res/Con/Move
+//replace STR w/ MAG for magic users
+//If we implement classes that can use both magic and physical we'll change the bonuses a slight bit.
+//for non hybrid users their off stat gets +0
 //note: for classes which keep one weapon and are infantry +13 bonus stats to non
 //give a slight -2 penalty if your class becomes a cav
 //Sort alphabetically pls
 -----------
+Dove:
+  Mage
+  {Sage}
+    +3/+1/+2/+0/+1/+2/+2/+2/+1
+    //total +11
+  OR
+  {Mage Knight}
+    +2/+1/+2/+1/+1/+0/+3/+2/+2
+    //total +10
+Seth:
+  Myrmidon
+  {Swordsmaster}
+    +4/+2/+1/+1/+2/+2/+1/+2/+1
+    //total +13
+  OR
+  {Assassin}
+    +3/+1/+3/+2/+2/+1/+1/+1/+1
+    //total +13
 Sonic Unleashed:
   Dancer
   {Royal Dancer}
