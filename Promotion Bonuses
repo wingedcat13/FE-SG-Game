@@ -2,47 +2,58 @@ Format:
 Name:
   pre-promote class
   {promotion}
-    Hp/Str/Skl/Spd/Lck/Def/Res/Con/Move
+    Hp/Str/Skl/Spd/Def/Res/Con/Move
   OR
   {promotion}
-    Hp/Str/Skl/Spd/Lck/Def/Res/Con/Move
+    Hp/Str/Skl/Spd/Def/Res/Con/Move
 //replace STR w/ MAG for magic users
 //If we implement classes that can use both magic and physical we'll change the bonuses a slight bit.
 //for non hybrid users their off stat gets +0
 //note: for classes which keep one weapon and are infantry +13 bonus stats to non
-//give a slight -2 penalty if your class becomes a cav
+//give a slight -1 or -2 penalty if your class becomes a cav
+//-1 or -2 penalty for new weapons
+//-3 if both cav and new weapons
 //Sort alphabetically pls
 -----------
 Dove:
   Mage
   {Sage}
-    +3/+1/+2/+0/+1/+2/+2/+2/+1
+    +4/+1/+2/+0/+2/+2/+2/+1
     //total +11
   OR
   {Mage Knight}
-    +2/+0/+2/+1/+1/+1/+3/+2/+2
+    +2/+0/+2/+2/+1/+3/+2/+2
     //total +10
+Mr. Bad:
+  Fighter
+  {Hero}
+    +3/+1/+1/+2/+2/+2/+2/+1
+    //total +11
+  OR
+  {Warrior}
+    +3/+2/+2/+1/+2/+1/+3/+1
+    //total +11
 Seth:
   Myrmidon
   {Swordsmaster}
-    +4/+2/+1/+1/+2/+2/+1/+2/+1
+    +4/+2/+1/+1/+3/+2/+2/+1
     //total +13
   OR
   {Assassin}
-    +3/+1/+3/+2/+2/+1/+1/+1/+1
+    +3/+2/+3/+2/+2/+1/+1/+1
     //total +13
 Sonic Unleashed:
   Dancer
   {Royal Dancer}
-    +4/+2/+1/+2/+1/+1/+2/+1/+1
+    +4/+2/+1/+2/+2/+2/+1/+1
     //total +13
 Varus:
   Archer
   {Sniper}
-    +3/+3/+1/+1/+2/+2/+1/+2/+1
+    +3/+3/+1/+2/+2/+2/+2/+1
     //gets crit +15
     //total +13
   OR
   {Bowknight}
-    +2/+2/+1/+0/+2/+2/+1/+2/+2
+    +3/+2/+2/+0/+2/+1/+2/+2
     //total +10
