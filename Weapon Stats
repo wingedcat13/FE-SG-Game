@@ -10,6 +10,14 @@ Swords:
     --A simple iron sword --
     Mt: 2
     Durability: 35/35
+  Slim Sword: E
+    --A light and easy to use lance--
+    Mt: 3
+    Durability: 35/35 //was originally 30 in FE8 but bumped up slightly
+    Hit: 100%
+    Crit: 5%
+    Weight: 2
+    [Range = 1]
   Steel Sword:  C
     --A stronger variation on a classic--
     Mt: 4
@@ -132,6 +140,14 @@ Bows: [All Ranged]
     Durability: 35/35
   Archer's Longbow: D
     --Loved by hunters of men and beasts alike. Long range--
+  Shortbow: D
+    --Improved crit rate--
+    Mt: 5
+    Durability: 5/5
+    Hit: 30%
+    Crit: 15% //was originally 10
+    Weight: 5 //was originally 3
+    [Range: 3-10]
 ----------------------------------------------------------
 Dark Magic:
   Eclipse: B
