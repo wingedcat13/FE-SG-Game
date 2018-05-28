@@ -27,6 +27,15 @@ Swords:
     [Lords Only]
     Mt: 3
     Durability: 25/25
+  Token Legendary Sword
+    --Idk a name for this--
+    Mt: 12
+    Durability: infinite
+    Hit: 80%
+    Crit: 10%
+    Weight: 12
+    [Range = 1]
+    //grants Spd/Skl +2
 ----------------------------------------------------------
 Lances:
   Axe Reaver: C
