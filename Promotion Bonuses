@@ -15,6 +15,15 @@ Name:
 //-3 if both cav and new weapons
 //Sort alphabetically pls
 -----------
+Devito:
+  Shaman
+  {Summoner}
+    +2/+3/+2/+0/+2/+2/+2/+1
+    //total +11
+  OR
+  {Druid}
+    +3/+1/+2/+0/+3/+3/+2/+2
+    //total +12
 Dove:
   Mage
   {Sage}
